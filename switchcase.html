@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Student Records</h1>
+    Enter Name <input type="text" name="pass" id="mySelect" />
+    <br>
+    <br> Enter id <input type="text" name="pass1" id="mySelect2" />
+    <br>
+    <br> Enter Course
+    <select name="course" id="mySelect3">
+        <option value="bca">Bca</option>
+        <option value="b.tech">B.tech</option>
+        <option value="B.com">B.com</option>
+
+    </select>
+    <br>
+    <br> Enter School <input type="text" name="pass3" id="mySelect4" />
+    <br>
+    <br>
+
+    <button onclick="myFunction()">clickMe</button>
+    <div class="table1"  >
+        <table>
+            <h1>Bca</h1>
+            <thead>
+                <th>Name</th>
+                <th>id</th>
+                <th>Course</th>
+                <th>School</th>
+            </thead>
+            <tbody id="student0">
+
+            </tbody>
+
+        </table>
+        <table>
+            <h1>B.tech</h1>
+            <thead>
+                <th>Name</th>
+                <th>id</th>
+                <th>Course</th>
+                <th>School</th>
+            </thead>
+            <tbody id="student1">
+
+            </tbody>
+
+        </table>
+        <table>
+            <h1>B.com</h1>
+            <thead>
+                <th>Name</th>
+                <th>id</th>
+                <th>Course</th>
+                <th>School</th>
+            </thead>
+            <tbody id="student2">
+
+            </tbody>
+
+        </table>
+    </div>
+
+
+
+    <script src="./switchcase.js"></script>
+</body>
+
+</html>
